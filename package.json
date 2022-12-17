@@ -1,0 +1,25 @@
+{
+  "name": "tinder-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\"\"npm run client\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ritika Vaishnav",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
